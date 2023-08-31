@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1 id="title">Benzaki Web Development Survey Form</h1>
+        <p id="description">Thank you for taking the time to complete this survey.</p>
+    </div>
+
+    <form id="survey-form">
+
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+        <label for="number" id="number-label">Age</label><br>
+        <input type="number" id="number" name="age" min="8" max="90" placeholder="Age"><br>
+
+
+        <label for="dropdown" id="dropdown-label">What type of Developer you are?</label><br>
+        <select name="dropdown" id="dropdown">
+            <option value="Front-end developer" id="disabled">Select an option</option>
+            <option value="Front-end developer">Front-end developer</option>
+            <option value="Back-end developer">Back-end developer</option>
+            <option value="full-stack developer">full-stack developer</option>
+        </select>
+
+        <p class="para1">What is your level of experience?</p>
+        <input type="radio" id="beginner" name="level" value="beginner">
+        <label for="beginner">Beginner</label><br>
+
+        <input type="radio" id="intermidiate" name="level" value="intermidiate">
+        <label for="intermidiate">Intermidiate</label><br>
+
+        <input type="radio" id="advanced" name="level" value="advanced">
+        <label for="advanced">Advanced</label><br>
+
+        <p class="para2">What Programming, Scripting, and Markup Languages you know?</p>
+        <input type="checkbox" id="HTMLCSS" name="HTMLCSS" value="HTMLCSS">
+        <label for="HTMLCSS">HTML / CSS</label><br>
+
+        <input type="checkbox" id="JavaScript" name="JavaScript" value="JavaScript">
+        <label for="JavaScript">JavaScript</label><br>
+
+        <input type="checkbox" id="TypeScript" name="TypeScript" value="TypeScript">
+        <label for="TypeScript">TypeScript</label><br>
+
+        <input type="checkbox" id="jQuery" name="jQuery" value="jQuery">
+        <label for="jQuery">jQuery</label><br>
+
+        <input type="checkbox" id="React" name="React" value="React">
+        <label for="React">React.js</label><br>
+
+        <input type="checkbox" id="Vue" name="Vue" value="Vue">
+        <label for="Vue">Vue.js</label><br>
+
+        <input type="checkbox" id="Angular" name="Angular" value="Angular">
+        <label for="Angular">Angular</label><br>
+
+        <input type="checkbox" id="Node" name="Node" value="Node">
+        <label for="Node">Node.js</label><br>
+
+        <input type="checkbox" id="PHP" name="PHP" value="PHP">
+        <label for="PHP">PHP</label><br>
+
+        <input type="checkbox" id="Laravel" name="Laravel" value="Laravel">
+        <label for="Laravel">Laravel</label><br>
+
+        <input type="checkbox" id="Python" name="Python" value="Python">
+        <label for="Python">Python</label><br>
+
+        <input type="checkbox" id="Django" name="Django" value="Django">
+        <label for="Django">Django</label><br>
+
+        <label for="msg" id="msg-label">Any comments or suggestions?</label><br>
+        <textarea name="message" id="msg" cols="30" rows="5" placeholder="Enter your comment here..."></textarea><br>
+
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    <p class="footer">Benzaki Web Development Copyright &copy; 2020</p>
+    <script src="script.js"></script>
+</body>
+
+</html>

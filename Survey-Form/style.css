@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+#title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    padding: 80px 10px 0 10px;
+    text-shadow: 2px;
+}
+#description {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    padding: 0 10px 50px 10px;
+}
+
+#survey-form {
+    background-color: rgba(34, 49, 63, 1);
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    color: #fff;
+}
+
+#name {
+    display: block;
+    width: 95%;
+    height: 40px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+}
+#name::placeholder {
+    font-size: 0.9rem;
+    padding: 5px;
+    font-weight: 500;
+}
+#name-label {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 0 0 10px 15px;
+}
+
+#email {
+    display: block;
+    width: 95%;
+    height: 40px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+}
+#email::placeholder {
+    font-size: 0.9rem;
+    padding: 5px;
+    font-weight: 500;
+}
+#email-label {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 0 0 10px 15px;
+}
+
+#number {
+    display: block;
+    width: 95%;
+    height: 40px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+}
+#number::placeholder {
+    font-size: 0.9rem;
+    padding: 5px;
+    font-weight: 500;
+}
+#number-label {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 0 0 10px 15px;
+}
+
+#dropdown {
+    display: block;
+    width: 95%;
+    height: 45px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+}
+#dropdown-label {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 0 0 10px 15px;
+}
+#dropdown option {
+    font-size: 1rem;
+    padding: 10px;
+    font-weight: 300;
+}
+
+#beginner, #intermidiate, #advanced {
+    width: 13px;
+    height: 13px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.para1 {
+    font-size: 1.1rem;
+    margin: 25px 0 10px 15px;
+}
+.para2 {
+    font-size: 1.1rem;
+    margin: 15px 0 10px 15px;
+}
+
+#msg {
+    display: block;
+    width: 95%;
+    margin: auto;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+#msg::placeholder {
+    font-size: 0.9rem;
+    padding: 5px;
+    font-weight: 400;
+}
+#msg-label {
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 20px 0 10px 15px;
+}
+
+
+#HTMLCSS, #JavaScript, #TypeScript, #jQuery, #React, #Vue, #Angular, #Node, #PHP, #Laravel, #Python, #Django {
+    width: 13px;
+    height: 13px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#submit {
+    display: block;
+    width: 95%;
+    margin: 20px auto 40px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(10, 189, 227,1.0);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: ease 1s;
+}
+#submit:hover {
+    background-color: #3fc1c9;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+@media screen and (max-width: 879px) {
+    #survey-form {
+        width: 70%;
+    }
+}
